@@ -1,0 +1,99 @@
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background: #0f172a;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Heading */
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* Post Card */
+.post {
+    background: #1e293b;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Username */
+.user {
+    color: #38bdf8;
+    margin-bottom: 8px;
+}
+
+/* Content */
+.content {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #facc15;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background: #22c55e;
+    color: black;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+/* Delete Button */
+form button {
+    background: #ef4444;
+    color: white;
+}
+
+form button:hover {
+    background: #b91c1c;
+}
+
+/* Input Fields */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+/* Form Card */
+form {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+}
